@@ -21,6 +21,34 @@ Stating @CamilleLegeron
 >
 > Camille
 
+## Glossary
+
+<details>
+  <summary>Acronyms</summary>
+  <dl>
+    <dt>MH</dt><dd>Must Have</dd>
+    <dt>SH</dt><dd>Should Have<dd>
+    <dt>NTH</dt><dd>Nice To Have</dd>
+  </dl>
+</details>
+
+<details>
+  <summary>Vocabulary</summary>
+  <dl>
+    <dt>Synchronized data source</dt><dd>The data source which fetches its data from an external table, and gets its data and columns synchronized with this external table</dd>
+    <dt>External table</dt><dd>Table of another document of the synchronized data source</dd>
+  </dl>
+</details>
+
+## Acceptance Criteria
+
+- AC1 - MH: A user can create a table whose data source is synchronized with an external document
+- AC2 - MH: The synchronization is made when the user requests it.
+- AC3 - MH: A user can convert an existing data source to a synchronized one
+  - AC3.1 - MH: If another table references a data source column, the reference is not broken if the external table has a column of the same id
+  - AC3.2 - SH: If the external table references a column of another table, the synchronized data source attempts to lookup locally the same table and the same column using the ids.
+- AC4 - SH: The user should be able to unlink of a synchronized data source which would become a simple data source;
+
 ## Documents
 
 - [design.md](./design.md)
