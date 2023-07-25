@@ -4,11 +4,9 @@ The user clicks « Add new » → « Add page » and is offered this view:
 
 ![select a widget with external data source](https://github.com/gristlabs/grist-core/assets/371705/1835e49e-997a-49b5-8786-ad11c9d1c4da)
 
-(at least with more cosmetic :sweat_smile:)
-
 They are offered to select a document from their own instance.
 
-About this idea of entering a table URL, that should lead to the same instance or to a public document, I am not sure how difficult it would be to implement that, I would suggest to implement it later if we want to.
+About this idea of entering a table URL, that may be implemented as a NTH enhancement, after the rest of the feature is implemented.
 
 Once the user submits, the data are fetched from the external document and put in a new table and a new data source.
 
@@ -32,7 +30,17 @@ When they trigger this action, the user is offered a popup to review the changes
 
 # Import into an existing table
 
-To be done
+Use case: a user used to copy tables from a document to another, and want to synchronize the data sources.
+
+![Contextual menu of data source with *Initiate a data source*](https://github.com/fflorent/grist-issues-proposals/assets/371705/9f0e7dd1-97e2-4093-87c5-a89e9d4092f4)
+
+Then the user is offered the same popup to validate the changes:
+
+![2023-07-20_15-51](https://github.com/gristlabs/grist-core/assets/371705/b2ef24ba-5302-4cde-9613-69a05e2e3e9a)
+
+The user also sees what columns are removed and what columns are added:
+
+**TODO** (not implemented in snapshots comparisons)
 
 # Forget / break the link
 

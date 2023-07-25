@@ -44,9 +44,13 @@ Stating @CamilleLegeron
 
 - AC1 - MH: A user can create a table whose data source is synchronized with an external document
 - AC2 - MH: The synchronization is made when the user requests it.
+  - AC2.1 - MH: The user sees what data have been changed through a diff
+  - AC2.2 - SH: The user also sees what columns are removed or added
 - AC3 - MH: A user can convert an existing data source to a synchronized one
   - AC3.1 - MH: If another table references a data source column, the reference is not broken if the external table has a column of the same id
   - AC3.2 - SH: If the external table references a column of another table, the synchronized data source attempts to lookup locally the same table and the same column using the ids.
+  - AC3.3 - MH: The user sees what data have been changed through a diff
+  - AC3.4 - SH: The user also sees what columns are removed or added
 - AC4 - SH: The user should be able to unlink of a synchronized data source which would become a simple data source;
 
 ## Documents
