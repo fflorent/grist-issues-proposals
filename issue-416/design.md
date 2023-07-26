@@ -1,12 +1,15 @@
 # Import from scratch
 
-The user clicks « Add new » → « Add page » and is offered this view:
+The user clicks « Add new » → « Import table from document »:
 
-![select a widget with external table](https://github.com/gristlabs/grist-core/assets/371705/1835e49e-997a-49b5-8786-ad11c9d1c4da)
+![Import table from document item](https://github.com/fflorent/grist-issues-proposals/assets/371705/6aa87e16-1f29-4a7b-ac47-71c7ff213aa8)
+
+And then a popin appears with some fields to fill to retrieve the table to import:
+![2023-07-26_14-58](https://github.com/fflorent/grist-issues-proposals/assets/371705/fcad24b8-251f-42a9-a586-645e81b94dfa)
+
+NB: the select box should propose a way to filter the options and the « link the table ...» field is checked by default.
 
 They are offered to select a document from their own instance.
-
-About this idea of entering a table URL, that may be implemented as a NTH enhancement, after the rest of the feature is implemented.
 
 Once the user submits, the data are fetched from the external document and put in a new table and in a new page.
 
