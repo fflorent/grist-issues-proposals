@@ -53,6 +53,8 @@ Stating @CamilleLegeron
   - AC3.4 - SH: The user also sees what columns are removed or added
 - AC4 - SH: The user should be able to unlink a synchronized table which would become a simple table;
 - AC5 - NTH: A "synchronize every tables" button is offered to the user in the "raw data tables" view;
+- AC6 - SH: Edits to synchronized tables should be forbidden;
+- AC7 - MH: Attachment columns are not retrieved from source tables;
 
 ## Documents
 
