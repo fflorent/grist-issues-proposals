@@ -55,6 +55,7 @@ Stating @CamilleLegeron
 - AC5 - NTH: A "synchronize every tables" button is offered to the user in the "raw data tables" view;
 - AC6 - SH: Edits to synchronized tables should be forbidden;
 - AC7 - MH: Attachment columns are not retrieved from source tables;
+- AC8 - MH: The hidden columns of the external table are synchronized too;
 
 ## Documents
 
