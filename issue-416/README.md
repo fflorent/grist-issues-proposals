@@ -35,8 +35,8 @@ Stating @CamilleLegeron
 <details>
   <summary>Vocabulary</summary>
   <dl>
-    <dt>Synchronized table</dt><dd>The table which fetches its data from an external table, and gets its data and columns synchronized with this external table</dd>
-    <dt>External table</dt><dd>Table of another document of the synchronized table</dd>
+    <dt>Synchronized table / Target table</dt><dd>The table which fetches its data from an external table, and gets its data and columns synchronized with this external table</dd>
+    <dt>External table / Source table</dt><dd>Table of another document of the synchronized table (source table should be preferred in the UI)</dd>
   </dl>
 </details>
 
