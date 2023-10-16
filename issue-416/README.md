@@ -62,6 +62,7 @@ Stating @CamilleLegeron
 - AC6 - SH: Edits to synchronized tables should be forbidden;
 - AC7 - MH: Attachment columns are not retrieved from source tables;
 - AC8 - MH: The hidden columns of the external table are synchronized too;
+- AC9 - MH: The source table may not exist anymore, in such a case the synchronization fails with an explicit message for the user;
 
 ## Documents
 
